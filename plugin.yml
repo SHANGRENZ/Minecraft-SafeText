@@ -1,0 +1,10 @@
+name: SafeText
+main: com.zhoushangren.safetext.SafeText
+version: 1.0
+
+commands:
+  safetext:
+    description: SafeText
+    usage: /safetext add/del/list
+    permission: com.zhoushangren.safetext.safetext
+    permission-message: 你没有权限执行此动作:/

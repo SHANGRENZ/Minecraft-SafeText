@@ -1,0 +1,30 @@
+#启用拦截/过滤
+enable: true
+
+#遇到关键字是否直接拦截，禁止发送
+#true:拦截模式  false:过滤模式
+#选择false则将关键字替换为指定代替字符
+block: true
+
+#如果block为false则在下方设置代替敏感词的字符(仅过滤模式有效)
+replace: x
+
+#设置拦截后的提示(仅拦截模式有效)
+block_alert: 您输入的内容含有敏感词
+
+#拦截后提示的颜色(仅拦截模式有效)
+block_alert_color: §e
+
+#拦截后是否给予玩家伤害(仅拦截模式有效)
+block_damage: true
+
+#伤害数量(仅拦截模式有效)
+block_damage_amount: 2
+
+#当玩家低于该血量则不给予伤害(仅拦截模式有效)(0为无视)
+block_damage_limit: 1
+
+#敏感词列表
+#建议在游戏内使用指令管理
+#/safetext add/del/list
+safetext:
